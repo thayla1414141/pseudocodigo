@@ -1,0 +1,28 @@
+Algoritmo de conversão
+
+Declaração
+
+   valorDolar: real;
+   valorReal: real;
+   resultado: real;
+   
+   inicio
+   
+  valorDolar= 5
+   
+   ESCREVA("digte valor para conversão")
+   LEIA("valorReal")
+  
+   
+   resultado=valorReal*valorDolar;
+   
+   SE valorReal< ENTAO
+   ESCREVA("valor convertdo menor que $10")
+   SENAO 
+   ESCREVA("valor convertido: $" , resultado)
+   
+   fim-se
+   
+   fim-algoritmo
+   
+  
